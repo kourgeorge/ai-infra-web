@@ -4,20 +4,26 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: var(--spacing-sm) 0;
+  padding: var(--spacing-xs) 0;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--spacing-sm) 0;
+  padding: var(--spacing-xs) 0;
 }
 
-.logo h2 {
-  margin: 0;
-  color: var(--color-primary);
-  font-size: 1.5rem;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.logoImage {
+  height: 72px;
+  width: auto;
+  display: block;
 }
 
 .navList {
@@ -58,9 +64,8 @@
   .navList {
     display: none;
   }
-  
-  .logo h2 {
-    font-size: 1.25rem;
+
+  .logoImage {
+    height: 42px;
   }
 }
-

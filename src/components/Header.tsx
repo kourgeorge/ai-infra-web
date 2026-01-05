@@ -15,7 +15,7 @@ const Header: React.FC = () => {
       <div className="container">
         <nav className={styles.nav}>
           <div className={styles.logo}>
-            <h2>Tikanify</h2>
+            <img src="/image.png" alt="Tikanify" className={styles.logoImage} />
           </div>
           <ul className={styles.navList}>
             <li><ScrollLink targetId="services">{t.header.nav.services}</ScrollLink></li>
