@@ -2,6 +2,7 @@ import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import styles from './Footer.module.css';
 import ScrollLink from './ScrollLink';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -30,8 +31,8 @@ const Footer: React.FC = () => {
           <div className={styles.footerSection}>
             <h4>Legal</h4>
             <ul>
-              <li><ScrollLink targetId="privacy">{t.footer.links.privacy}</ScrollLink></li>
-              <li><ScrollLink targetId="terms">{t.footer.links.terms}</ScrollLink></li>
+              <li><Link to="/legal#privacy">{t.footer.links.privacy}</Link></li>
+              <li><Link to="/legal#terms">{t.footer.links.terms}</Link></li>
             </ul>
           </div>
           <div className={styles.footerSection}>

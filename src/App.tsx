@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ServiceDetail from './pages/ServiceDetail';
+import LegalPage from './pages/LegalPage';
 import './styles/index.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/service/:serviceId" element={<ServiceDetail />} />
+            <Route path="/legal" element={<LegalPage />} />
           </Routes>
           <Footer />
         </div>
@@ -24,4 +26,3 @@ function App() {
 }
 
 export default App;
-
