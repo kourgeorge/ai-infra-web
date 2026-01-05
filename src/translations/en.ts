@@ -9,16 +9,16 @@ export const translations = {
     language: "עברית",
   },
   hero: {
-    title: "Professional-Grade AI",
-    subtitle: "Domain-specific AI infrastructure for law firms in Israel",
-    description: "Enterprise-grade secure AI platform designed specifically for legal professionals. Not the same as using ChatGPT carefully—a private, controlled, and compliant environment that protects client data and meets the highest security standards.",
+    title: "AI Infrastructure for Modern Businesses",
+    subtitle: "Secure, domain-specific AI built for teams that need control",
+    description: "Tikanify delivers an enterprise-grade platform that gives businesses private, compliant AI infrastructure. Not the same as using ChatGPT carefully—a controlled environment that keeps data safe while letting every team move faster.",
     cta: "Request a Demo",
     ctaSecondary: "Learn More",
   },
   security: {
-    title: "What 'Secure AI' Means for Your Law Firm",
-    subtitle: "Our security guarantees go beyond standard AI tools",
-    description: "This is not the same as using ChatGPT carefully. We provide enterprise-grade secure infrastructure designed specifically for legal professionals.",
+    title: "What 'Secure AI' Means for Your Business",
+    subtitle: "Security and governance built for regulated, data-sensitive teams",
+    description: "This is not the same as using ChatGPT carefully. We provide enterprise-grade secure infrastructure designed for organizations that need tight control, auditability, and privacy.",
     guarantees: [
       {
         title: "Zero Data Leakage",
@@ -50,97 +50,99 @@ export const translations = {
   },
   services: {
     title: "Our Services",
-    subtitle: "Complete AI infrastructure for modern law firms",
+    subtitle: "Complete AI infrastructure for modern businesses",
     items: [
       {
         title: "Private LLM Access",
-        description: "Secure, private access to advanced language models - like ChatGPT but fully secured and controlled within your environment",
+        description: "Secure, private access to leading language models—enterprise controls without sending data to public endpoints",
       },
       {
         title: "Observability & Governance",
-        description: "Complete visibility into how employees use AI in your organization - track both costs and data usage with detailed analytics",
+        description: "Visibility and guardrails for how teams use AI—track cost, usage, and data with auditable controls",
       },
       {
         title: "Private RAG System",
-        description: "Intelligent document search that finds relevant information from your organization's documents to provide contextualized, accurate answers",
+        description: "Intelligent document search that keeps knowledge private while delivering contextual, accurate answers",
       },
       {
         title: "Custom Agent Development",
-        description: "Build proprietary AI agents tailored to your firm's specific needs - from case management to client communication workflows",
+        description: "Build proprietary AI agents tailored to your specific workflows—from ops automation to customer interactions",
       },
       {
         title: "Deep Document Research",
-        description: "Advanced AI-powered research on your proprietary documents, extracting insights, patterns, and recommendations from your legal knowledge base",
+        description: "Advanced AI-powered analysis on your proprietary documents to extract insights, patterns, and recommendations",
       },
       {
         title: "Litigation Recommendations",
-        description: "AI-driven analysis and recommendations for litigation strategy, case precedents, and risk assessment based on your firm's historical data",
+        description: "Scenario and risk modeling that uses your historical data to forecast outcomes and guide decisions",
       },
       {
         title: "Proprietary Tools",
-        description: "Custom-built tools for legal professionals including document summarization, email preparation, contract analysis, and more",
+        description: "Custom-built tools including summarization, email preparation, contract analysis, and more",
       },
       {
         title: "Local Law Integration",
-        description: "Connected to Israeli law and regulation databases, ensuring your AI understands local legal context and requirements",
+        description: "Connected to local regulation and policy sources so your AI understands relevant context and requirements",
+      },
+      {
+        title: "Data Connectors",
+        description: "Secure connectors to your data sources—Google Drive, Confluence, OneDrive, Dropbox, and more",
       },
     ],
     details: {
       privateLLM: {
         title: "Private LLM Access",
         subtitle: "Secure access to advanced AI models",
-        overview: "Access cutting-edge language models like ChatGPT, Claude, and Gemini through a fully secure, private infrastructure designed for law firms. Unlike public AI services, our private LLM infrastructure ensures that your sensitive client data never leaves your controlled environment. Every interaction is encrypted, logged, and completely isolated from other users.",
-        detailedDescription: "Our Private LLM Access service provides law firms with enterprise-grade access to the world's most advanced language models without compromising security or client confidentiality. The infrastructure is deployed within your organization's secure network, ensuring complete data isolation. All AI interactions are encrypted end-to-end, and no training data is ever used to improve public models. This means you get the full power of modern AI while maintaining the strictest security and compliance standards required for legal practice.",
+        overview: "Access cutting-edge language models like ChatGPT, Claude, and Gemini through a fully secure, private infrastructure designed for businesses that need control. Unlike public AI services, our private LLM layer keeps sensitive data inside your environment with encryption, auditability, and isolation.",
+        detailedDescription: "Private LLM Access gives organizations enterprise-grade use of leading language models without exposing data to public endpoints. Deployed inside your network or a dedicated tenant, every interaction is encrypted end-to-end, logged for audit, and isolated from other customers. You get the full power of modern AI while meeting the security and compliance standards your business requires.",
         useCases: [
           {
-            title: "Client Communication",
-            description: "Draft professional emails and communications to clients without exposing sensitive information to public AI services. The AI can help you compose clear, professional correspondence while ensuring client names, case details, and confidential information remain completely private. Perfect for responding to client inquiries, providing case updates, and managing client relationships efficiently.",
+            title: "Customer Communication",
+            description: "Draft professional emails and responses without exposing sensitive customer information to public AI services. Keep brand tone consistent while ensuring names, account details, and confidential data stay private.",
           },
           {
             title: "Document Analysis",
-            description: "Analyze contracts, legal briefs, and case documents using advanced AI while maintaining complete data privacy. Upload any legal document - from complex merger agreements to litigation briefs - and get instant analysis of key terms, potential risks, and important clauses. The AI understands legal terminology and can identify inconsistencies, missing elements, and areas requiring attention, all without your documents ever leaving your secure environment.",
+            description: "Analyze contracts, policies, financial reports, or support logs while maintaining complete data privacy. Get instant highlights of key terms, risks, and action items without data ever leaving your secure environment.",
           },
           {
-            title: "Legal Research Assistance",
-            description: "Get AI-powered research assistance for legal questions, case law analysis, and regulatory compliance checks. Ask complex legal questions in natural language and receive detailed, cited responses. The AI can help you identify relevant precedents, understand regulatory requirements, and prepare comprehensive research briefs. This accelerates your research process while maintaining the high standards expected in legal practice.",
+            title: "Research Assistance",
+            description: "Get AI-powered research for product, market, regulatory, or technical topics. Ask complex questions in natural language and receive detailed, cited responses while keeping queries and context private.",
           },
           {
-            title: "Contract Drafting",
-            description: "Generate initial drafts of legal contracts and agreements based on your templates and requirements. The AI can help structure contracts, suggest appropriate clauses, and ensure consistency with your firm's standard practices. All generated content remains within your private infrastructure, allowing you to leverage AI productivity while maintaining complete control over client work product.",
+            title: "Drafting & Templates",
+            description: "Generate first drafts of documents and templates based on your standards. Keep generated content inside your controlled environment for fast, compliant team productivity.",
           },
         ],
         benefits: [
-          "Zero data leakage to public models - your data never leaves your environment",
-          "Full control over AI access and usage with granular permissions",
-          "Compliance with GDPR, Israeli Privacy Protection Law, and Bar Association requirements",
-          "Enterprise-grade security with end-to-end encryption and audit logs",
-          "Access to multiple leading AI models (ChatGPT, Claude, Gemini) in one platform",
-          "No usage restrictions or rate limits that hinder productivity",
-          "Customizable model configurations for your firm's specific needs",
+          "Zero data leakage to public models—data stays in your environment",
+          "Granular permissions and usage controls",
+          "Enterprise security with end-to-end encryption and audit logs",
+          "Access to multiple leading models (ChatGPT, Claude, Gemini) in one platform",
+          "Configurable guardrails and policies for your specific needs",
         ],
-        howItWorks: "Our Private LLM infrastructure is deployed within your organization's secure network or in a dedicated cloud environment with strict access controls. When you or your team interact with the AI, all requests are processed locally or through encrypted connections to isolated compute resources. Your data is never stored on public AI provider servers, and no information is used to train or improve public models. All interactions are logged for audit purposes, giving you complete visibility into AI usage across your firm.",
+        howItWorks: "Private LLM is deployed in your secure network or a dedicated cloud tenant with strict access controls. All requests run through encrypted, isolated compute, never stored on public provider servers, and never used to train public models. Every interaction is logged for audit, giving you full visibility into AI usage across your organization.",
       },
       observability: {
         title: "Observability & Governance",
         subtitle: "Complete visibility and control",
-        overview: "Monitor and manage AI usage across your entire organization with detailed analytics, cost tracking, and governance controls. Know exactly how AI is being used, who is using it, what data is being accessed, and how much it costs. Our observability platform provides comprehensive insights that help you optimize AI usage while maintaining strict governance and compliance standards.",
-        detailedDescription: "Effective AI governance requires complete visibility into how AI tools are being used across your organization. Our Observability & Governance platform provides real-time monitoring, detailed analytics, and comprehensive controls for all AI interactions. Track usage patterns, monitor costs, enforce policies, and maintain detailed audit trails for compliance. With role-based access controls and customizable policies, you can ensure that AI is used appropriately and efficiently throughout your firm.",
+        overview: "Monitor and manage AI usage across your organization with detailed analytics, cost tracking, and governance controls. See who is using AI, what data is accessed, and how much it costs—all in one place.",
+        detailedDescription: "Effective AI governance requires complete visibility into how AI tools are used. Observability & Governance provides real-time monitoring, cost controls, policy enforcement, and detailed audit trails. Role-based access controls and configurable policies ensure AI is used appropriately and efficiently across your business.",
         useCases: [
           {
             title: "Usage Analytics",
-            description: "Track which employees use AI tools, when, and for what purposes with comprehensive usage dashboards. See real-time metrics showing AI usage by department, project, or individual user. Identify high-value use cases, spot inefficiencies, and understand how AI is transforming work across your organization. Detailed analytics help you make informed decisions about AI strategy and resource allocation.",
+            description: "Track which teams use AI, when, and for what purposes with real-time dashboards by department, project, or user. Identify high-value use cases and spot inefficiencies.",
           },
           {
             title: "Cost Management",
-            description: "Monitor AI usage costs in real-time and set budgets to control spending across departments and projects. Get detailed cost breakdowns showing spending by model type, department, or use case. Set budget alerts to prevent overspending, and use forecasting tools to predict future costs. This financial visibility ensures AI investments align with business priorities and ROI expectations.",
+            description: "Monitor AI spend in real time, set budgets, and break down costs by model, department, or use case. Get alerts to prevent overspend and forecast future costs.",
           },
           {
             title: "Compliance Auditing",
-            description: "Maintain detailed audit logs of all AI interactions for compliance reporting and risk management. Every AI query, document access, and response is logged with timestamps, user information, and content summaries. These audit trails are essential for demonstrating compliance with data protection regulations, Bar Association requirements, and internal policies. Export audit logs in standard formats for compliance reporting and risk assessments.",
+            description: "Maintain detailed audit logs of all AI interactions for compliance reporting and risk management. Every query, document access, and response is timestamped and traceable.",
           },
           {
             title: "Policy Enforcement",
-            description: "Enforce AI usage policies across your organization with automated controls and alerts. Set rules for which AI models can be used for different types of work, restrict access to sensitive data, and require approvals for high-risk operations. Policy violations trigger immediate alerts, allowing you to maintain governance while enabling productive AI use.",
+            description: "Enforce AI usage policies with automated controls and alerts. Set rules by model, data type, or workflow and require approvals for high-risk operations.",
           },
         ],
         benefits: [
@@ -152,75 +154,75 @@ export const translations = {
           "Integration with existing compliance and risk management systems",
           "Historical analytics to track trends and measure AI adoption over time",
         ],
-        howItWorks: "Our Observability platform automatically collects data from all AI interactions across your organization. This includes usage metrics, cost information, query content, and user details. The data is securely stored and analyzed in real-time, providing dashboards and reports that give you complete visibility. You can set up alerts for specific events, export data for external analysis, and configure policies that automatically enforce governance rules. All data collection and processing happens within your secure environment to maintain privacy and compliance.",
+        howItWorks: "Observability collects data from AI interactions across your organization—usage metrics, cost information, queries, and user details—secured and analyzed in real time. Configure alerts, export audit logs, and enforce policies from one place, all within your controlled environment.",
       },
       privateRAG: {
         title: "Private RAG System",
         subtitle: "Intelligent document search and retrieval",
-        overview: "Search across your firm's entire document library with AI-powered semantic search that understands context and legal terminology. Our Private RAG (Retrieval-Augmented Generation) system transforms how you find and use information from your firm's knowledge base. Instead of keyword searches that return irrelevant results, our system understands the meaning and context of your queries, delivering precisely the information you need.",
-        detailedDescription: "The Private RAG System uses advanced AI to create intelligent indexes of your entire document repository, understanding not just keywords but concepts, relationships, and legal contexts. When you ask a question, the system searches through thousands of documents in seconds, finding relevant information even when it's expressed differently than your query. The AI then synthesizes information from multiple sources to provide comprehensive, contextualized answers. All document access respects your existing permissions, ensuring lawyers only see documents they're authorized to access.",
+        overview: "Search across your entire document library with AI-powered semantic search that understands context, terminology, and relationships. Private RAG transforms how teams find and use information from your knowledge base with secure connectors to Google Drive, Confluence, OneDrive, Dropbox, and more.",
+        detailedDescription: "Private RAG creates intelligent indexes of your repositories, understanding concepts and relationships—not just keywords. Connect safely to content sources like Google Drive, Confluence, OneDrive, and Dropbox, then ask a question and get the most relevant passages in seconds, synthesized into contextual answers with source citations. Access respects your existing permissions so teams only see what they're allowed to view.",
         useCases: [
           {
-            title: "Case Precedent Search",
-            description: "Quickly find relevant case precedents and legal decisions from your firm's historical cases and research database. Search using natural language questions like 'How have we handled similar breach of contract cases?' and get instant access to relevant past cases, including case summaries, outcomes, and key legal arguments. This saves countless hours of manual research and helps you build stronger cases based on your firm's proven strategies.",
+            title: "Project Knowledge Search",
+            description: "Find relevant project docs, decisions, and learnings by asking natural language questions. Get instant access to summaries, outcomes, and key context without digging through folders.",
           },
           {
-            title: "Contract Template Discovery",
-            description: "Locate existing contract templates and clauses that match your current requirements, saving hours of manual searching. Simply describe the type of contract or clause you need, and the system searches through all your templates and past contracts to find the best matches. Review variations and adaptations used in different contexts, helping you draft contracts more efficiently while maintaining consistency with your firm's standards.",
+            title: "Template Discovery",
+            description: "Locate templates, playbooks, and approved snippets that match current requirements to keep deliverables consistent and fast.",
           },
           {
-            title: "Client History Analysis",
-            description: "Access and analyze past client communications, contracts, and case files to provide informed legal advice. When preparing for client meetings or providing ongoing counsel, quickly review the complete history of your relationship with that client. The system can summarize key events, past agreements, ongoing matters, and important communications, giving you comprehensive context to provide better, more informed advice.",
+            title: "Account History",
+            description: "Review past communications, contracts, and decisions for any account to prepare for meetings with complete context.",
           },
           {
-            title: "Regulatory Research Across Documents",
-            description: "Find all references to specific regulations, laws, or compliance requirements across your entire document library. Whether you're preparing for a regulatory review or need to understand how a new law affects existing contracts, the RAG system can find every relevant mention and provide context on how your firm has handled similar regulatory matters in the past.",
+            title: "Policy & Compliance Search",
+            description: "Find references to policies, regulations, or requirements across all documents to speed audits and compliance reviews.",
           },
         ],
         benefits: [
-          "Semantic search understands legal context and terminology, not just keywords",
-          "Searches across all firm documents securely with encrypted indexing",
+          "Semantic search understands context and terminology, not just keywords",
+          "Searches across all documents securely with encrypted indexing",
           "Returns contextualized, relevant results ranked by relevance and recency",
           "Respects document access permissions and security classifications",
           "Supports multiple document formats including PDFs, Word, emails, and case management systems",
           "Continuously learns from your document corpus to improve search relevance",
           "Provides source citations so you can verify and reference original documents",
         ],
-        howItWorks: "The Private RAG System uses advanced embedding models to create vector representations of your documents that capture their semantic meaning. When you ask a question, your query is also converted to a vector, and the system finds documents with similar meanings using similarity search. The most relevant document chunks are then fed to a language model that generates a comprehensive answer, citing the source documents. All processing happens within your secure environment, and documents are indexed with respect to existing access controls, ensuring that search results only include documents each user is authorized to view.",
+        howItWorks: "Private RAG uses embedding models to index documents by meaning. Queries are matched to relevant passages with similarity search, then routed to a language model that generates an answer with citations. Everything runs inside your secure environment and respects existing access controls.",
       },
       customAgents: {
         title: "Custom Agent Development",
-        subtitle: "Build proprietary AI agents for your firm",
-        overview: "Create custom AI agents tailored to your firm's specific workflows, from case management to client onboarding processes. These intelligent agents automate repetitive tasks, handle routine processes, and augment your team's capabilities, all while working within your secure, controlled environment. Each agent is designed specifically for your firm's unique needs and integrates seamlessly with your existing systems and processes.",
-        detailedDescription: "Custom AI agents are specialized AI systems designed to handle specific tasks and workflows within your law firm. Unlike general-purpose AI assistants, custom agents are built to understand your firm's processes, terminology, and requirements. They can automate complex workflows, make intelligent decisions based on rules and context, and interact with your existing systems. Our team works with you to identify automation opportunities, design agents that fit your workflows, and deploy them securely within your infrastructure. Agents can handle everything from simple task automation to complex decision-making processes.",
+        subtitle: "Build proprietary AI agents for your business",
+        overview: "Create custom AI agents tailored to your workflows—from support triage to finance ops. Agents automate repetitive work, handle routine processes, and augment your team while running inside your secure environment.",
+        detailedDescription: "Custom agents are specialized systems built for your processes, terminology, and requirements. They automate complex workflows, make context-aware decisions, and connect to your existing systems. We help you identify the right opportunities, design agents that fit, and deploy them securely so teams move faster with the right guardrails.",
         useCases: [
           {
-            title: "Case Management Automation",
-            description: "Deploy AI agents that automatically organize case files, track deadlines, and send reminders to legal teams. The agent monitors case status, identifies approaching deadlines, prioritizes tasks, and sends automated reminders to relevant team members. It can also automatically file documents in the correct case folders, extract key information from case documents, and update case management systems. This eliminates manual administrative work and ensures nothing falls through the cracks.",
+            title: "Workflow Automation",
+            description: "Deploy agents that organize work, track deadlines, and send reminders across teams. Automate filing, data extraction, and status updates in the right systems.",
           },
           {
-            title: "Client Onboarding Agent",
-            description: "Create agents that guide new clients through intake processes, collect necessary information, and schedule consultations. The agent can interact with new clients through a secure portal, asking relevant questions based on the type of legal matter, collecting required documentation, and providing initial information about the process. It can automatically check for conflicts of interest, schedule initial consultations with appropriate attorneys, and prepare intake summaries for the legal team. This streamlines onboarding and improves the client experience.",
+            title: "Customer Onboarding",
+            description: "Guide new customers through intake, collect required info and documents, and schedule next steps. Generate summaries for teams automatically.",
           },
           {
-            title: "Document Classification Agent",
-            description: "Automatically categorize and route incoming documents to appropriate legal teams based on content and context. When documents arrive via email, file upload, or case management system, the agent analyzes the content, identifies the document type (contract, legal brief, correspondence, etc.), determines which matter it relates to, and routes it to the appropriate team member. This ensures documents are handled quickly and efficiently, reducing the time between document receipt and action.",
+            title: "Document Classification",
+            description: "Automatically categorize and route incoming documents to the right teams based on content and context—reduce manual triage time.",
           },
           {
-            title: "Contract Review Agent",
-            description: "Build agents that perform initial contract reviews, flagging unusual clauses, identifying potential risks, and comparing contracts against your firm's standard templates. The agent can review contracts 24/7, providing initial assessments that help attorneys focus on the most important issues. It learns from your firm's review history to improve its ability to identify issues relevant to your practice areas and client needs.",
+            title: "Policy & Contract Review",
+            description: "Automate first-pass reviews to flag unusual terms, risks, and deviations from your standards so experts can focus on the important parts.",
           },
         ],
         benefits: [
-          "Tailored to your firm's specific needs and workflows",
-          "Integrates seamlessly with existing case management and document systems",
+          "Tailored to your specific needs and workflows",
+          "Integrates seamlessly with existing systems and tools",
           "Improves efficiency by automating repetitive, time-consuming tasks",
           "Continuously learns and improves from usage patterns and feedback",
           "Maintains complete security and compliance within your controlled environment",
           "Scalable architecture that can handle growing workloads",
-          "Customizable to adapt as your firm's processes evolve",
+          "Customizable to adapt as your processes evolve",
         ],
-        howItWorks: "Custom Agent Development begins with understanding your firm's workflows and identifying automation opportunities. Our team collaborates with your staff to design agents that enhance rather than replace human expertise. Agents are built using a combination of AI models, business logic, and integrations with your existing systems. They're tested thoroughly in your environment before deployment, and can be refined based on real-world usage. Agents operate within your secure infrastructure, respecting all access controls and data privacy requirements. They can be configured to require human approval for critical decisions, ensuring human oversight where necessary while automating routine operations.",
+        howItWorks: "Custom Agent Development starts by mapping workflows and identifying automation opportunities. Agents combine AI models, business logic, and integrations with your systems. They are tested in your environment, respect access controls, and can require human approval for critical decisions while automating routine operations.",
       },
       deepResearch: {
         title: "Deep Document Research",
@@ -358,6 +360,34 @@ export const translations = {
         ],
         howItWorks: "Local Law Integration maintains a comprehensive knowledge base of Israeli law, continuously updated with new legislation, regulations, case law, and Bar Association guidance. This knowledge base is integrated into all AI services, ensuring that recommendations, analysis, and answers are informed by Israeli legal context. The system understands Israeli legal terminology in both Hebrew and English, can interpret Israeli legal sources, and provides recommendations that comply with Israeli legal requirements. Updates are incorporated regularly, ensuring the system stays current with legal developments.",
       },
+      dataConnectors: {
+        title: "Data Connectors",
+        subtitle: "Secure ingestion from your systems",
+        overview: "Connect securely to Google Drive, Confluence, OneDrive, Dropbox, and other sources to keep knowledge fresh without copying data around.",
+        detailedDescription: "Data Connectors let you plug your storage and knowledge tools directly into the platform with least-privilege access. Content is synced securely, permission-aware, and stays within your controlled environment—no public data sharing. Configure connectors once, keep indexes fresh, and govern what data is available to AI.",
+        useCases: [
+          {
+            title: "Unified Knowledge Access",
+            description: "Search across Drive, Confluence, OneDrive, and Dropbox in one place with permission-aware results.",
+          },
+          {
+            title: "RAG Pipelines",
+            description: "Keep retrieval-augmented generation pipelines updated automatically with the latest docs from your sources.",
+          },
+          {
+            title: "Secure Sharing",
+            description: "Expose only the folders, spaces, or sites you approve, with audit trails and role-based access.",
+          },
+        ],
+        benefits: [
+          "Least-privilege connectors to major content platforms",
+          "Permission-aware indexing and responses",
+          "Configurable sync schedules and scoping",
+          "No data sent to public endpoints",
+          "Auditability across all ingested sources",
+        ],
+        howItWorks: "Enable connectors per source, authorize with scoped credentials, and select the drives, spaces, or folders to index. Data is fetched over encrypted channels, stored and processed within your secure environment, and indexed with respect to existing permissions. Syncs run on schedules you control, and all access is logged.",
+      },
     },
     detailPage: {
       backToServices: "Back to Services",
@@ -365,7 +395,7 @@ export const translations = {
       keyBenefits: "Key Benefits",
       howItWorks: "How It Works",
       readyToStart: "Ready to Get Started?",
-      contactDescription: "Contact us to learn more about how this service can benefit your law firm.",
+      contactDescription: "Contact us to learn more about how this service can benefit your business.",
     },
   },
   metrics: {
@@ -435,14 +465,14 @@ export const translations = {
   },
   contact: {
     title: "Get in Touch",
-    subtitle: "Ready to secure your firm's AI infrastructure?",
-    description: "Contact us to learn more about our secure AI solutions for law firms",
+    subtitle: "Ready to secure your business's AI infrastructure?",
+    description: "Contact us to learn more about our secure AI solutions for businesses",
     button: "Contact Us",
-    email: "info@example.com",
-    phone: "+972-XX-XXX-XXXX",
+    email: "kourgeorge@gmail.com",
+    phone: "(+972)-052-5808010",
   },
   footer: {
-    description: "Secure AI infrastructure designed specifically for law firms in Israel",
+    description: "Tikanify delivers secure AI infrastructure for modern businesses in Israel",
     links: {
       services: "Services",
       security: "Security",
@@ -454,4 +484,3 @@ export const translations = {
     copyright: "© 2025. All rights reserved.",
   },
 };
-

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import styles from './Footer.module.css';
+import ScrollLink from './ScrollLink';
 
 const Footer: React.FC = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -20,17 +21,17 @@ const Footer: React.FC = () => {
           <div className={styles.footerSection}>
             <h4>Links</h4>
             <ul>
-              <li><a href="#services">{t.footer.links.services}</a></li>
-              <li><a href="#security">{t.footer.links.security}</a></li>
-              <li><a href="#features">{t.footer.links.features}</a></li>
-              <li><a href="#contact">{t.footer.links.contact}</a></li>
+              <li><ScrollLink targetId="services">{t.footer.links.services}</ScrollLink></li>
+              <li><ScrollLink targetId="security">{t.footer.links.security}</ScrollLink></li>
+              <li><ScrollLink targetId="features">{t.footer.links.features}</ScrollLink></li>
+              <li><ScrollLink targetId="contact">{t.footer.links.contact}</ScrollLink></li>
             </ul>
           </div>
           <div className={styles.footerSection}>
             <h4>Legal</h4>
             <ul>
-              <li><a href="#privacy">{t.footer.links.privacy}</a></li>
-              <li><a href="#terms">{t.footer.links.terms}</a></li>
+              <li><ScrollLink targetId="privacy">{t.footer.links.privacy}</ScrollLink></li>
+              <li><ScrollLink targetId="terms">{t.footer.links.terms}</ScrollLink></li>
             </ul>
           </div>
           <div className={styles.footerSection}>
@@ -48,4 +49,3 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-

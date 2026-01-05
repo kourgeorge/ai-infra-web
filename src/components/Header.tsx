@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import styles from './Header.module.css';
+import ScrollLink from './ScrollLink';
 
 const Header: React.FC = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -14,13 +15,13 @@ const Header: React.FC = () => {
       <div className="container">
         <nav className={styles.nav}>
           <div className={styles.logo}>
-            <h2>AI Law Infrastructure</h2>
+            <h2>Tikanify</h2>
           </div>
           <ul className={styles.navList}>
-            <li><a href="#services">{t.header.nav.services}</a></li>
-            <li><a href="#security">{t.header.nav.security}</a></li>
-            <li><a href="#features">{t.header.nav.features}</a></li>
-            <li><a href="#contact">{t.header.nav.contact}</a></li>
+            <li><ScrollLink targetId="services">{t.header.nav.services}</ScrollLink></li>
+            <li><ScrollLink targetId="security">{t.header.nav.security}</ScrollLink></li>
+            <li><ScrollLink targetId="features">{t.header.nav.features}</ScrollLink></li>
+            <li><ScrollLink targetId="contact">{t.header.nav.contact}</ScrollLink></li>
           </ul>
           <button className={styles.languageButton} onClick={toggleLanguage}>
             {t.header.language}
@@ -32,4 +33,3 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-

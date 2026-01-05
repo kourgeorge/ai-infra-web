@@ -10,7 +10,8 @@ import {
   FaGavel,
   FaTools, 
   FaBalanceScale,
-  FaArrowRight
+  FaArrowRight,
+  FaCloud
 } from 'react-icons/fa';
 import styles from './Services.module.css';
 
@@ -25,7 +26,8 @@ const Services: React.FC = () => {
     FaFileAlt,         // Deep Document Research
     FaGavel,           // Litigation Recommendations
     FaTools,           // Proprietary Tools
-    FaBalanceScale     // Local Law Integration
+    FaBalanceScale,    // Local Law Integration
+    FaCloud            // Data Connectors
   ];
 
   const serviceSlugs = [
@@ -37,6 +39,7 @@ const Services: React.FC = () => {
     'litigation',
     'proprietary-tools',
     'local-law',
+    'data-connectors',
   ];
 
   return (
@@ -75,4 +78,3 @@ const Services: React.FC = () => {
 };
 
 export default Services;
-

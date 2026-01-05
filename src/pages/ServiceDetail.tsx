@@ -17,6 +17,7 @@ const ServiceDetail: React.FC = () => {
     'litigation': 'litigation',
     'proprietary-tools': 'proprietaryTools',
     'local-law': 'localLaw',
+    'data-connectors': 'dataConnectors',
   };
 
   const detailKey = serviceId ? serviceKeys[serviceId] : null;
@@ -93,4 +94,3 @@ const ServiceDetail: React.FC = () => {
 };
 
 export default ServiceDetail;
-

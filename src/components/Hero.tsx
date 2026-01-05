@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import styles from './Hero.module.css';
+import ScrollLink from './ScrollLink';
 
 const Hero: React.FC = () => {
   const { t } = useLanguage();
@@ -15,12 +16,12 @@ const Hero: React.FC = () => {
           <p className={styles.subtitle}>{t.hero.subtitle}</p>
           <p className={styles.description}>{t.hero.description}</p>
           <div className={styles.ctaGroup}>
-            <a href="#contact" className="btn btn-primary">
+            <ScrollLink targetId="contact" className="btn btn-primary">
               {t.hero.cta}
-            </a>
-            <a href="#security" className="btn btn-secondary">
+            </ScrollLink>
+            <ScrollLink targetId="security" className="btn btn-secondary">
               {t.hero.ctaSecondary}
-            </a>
+            </ScrollLink>
           </div>
         </div>
       </div>
@@ -29,4 +30,3 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
-
