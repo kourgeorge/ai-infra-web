@@ -9,7 +9,7 @@ export const translations = {
     language: "עברית",
   },
   hero: {
-    title: "AI Infrastructure for Businesses",
+    title: "Secured AI Infrastructure for Businesses",
     subtitle: "Secure, domain-specific AI built for teams that need control",
     description: "Tikanify delivers an enterprise-grade platform that gives businesses private, compliant AI infrastructure. Not the same as using ChatGPT carefully—a controlled environment that keeps data safe while letting every team move faster.",
     cta: "",

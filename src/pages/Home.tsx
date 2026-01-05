@@ -11,14 +11,20 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     const state = location.state as { scrollToId?: string } | null;
-    if (location.pathname !== '/' || !state?.scrollToId) {
+    const hashId = location.hash ? location.hash.replace('#', '') : undefined;
+
+    const targetId = state?.scrollToId || hashId;
+    if (location.pathname !== '/' || !targetId) {
       return;
     }
 
-    const section = document.getElementById(state.scrollToId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    // Scroll after paint to ensure the section exists in the DOM
+    requestAnimationFrame(() => {
+      const section = document.getElementById(targetId);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
   }, [location]);
 
   return (

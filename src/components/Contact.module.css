@@ -26,9 +26,13 @@
   color: var(--color-text);
 }
 
+.heroForm .formTitle {
+  color: white;
+}
+
 .heroForm {
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.18), rgba(99, 102, 241, 0.22));
+  border: 1px solid rgba(255, 255, 255, 0.22);
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
   padding: var(--spacing-lg) var(--spacing-xl);
@@ -44,11 +48,31 @@
 .heroForm .formRow input,
 .heroForm .formRow textarea {
   padding: var(--spacing-sm) var(--spacing-md);
+  background: rgba(30, 64, 175, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: white;
+}
+
+.heroForm .formRow input::placeholder,
+.heroForm .formRow textarea::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.heroForm .formRow input:focus,
+.heroForm .formRow textarea:focus {
+  background: rgba(30, 64, 175, 0.18);
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.22);
+  color: white;
 }
 
 .formRow label {
   font-weight: 600;
   color: var(--color-text);
+}
+
+.heroForm .formRow label {
+  color: white;
 }
 
 .formRow input,

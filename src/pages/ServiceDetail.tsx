@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { FaArrowLeft, FaCheckCircle } from 'react-icons/fa';
@@ -22,6 +22,10 @@ const ServiceDetail: React.FC = () => {
 
   const detailKey = serviceId ? serviceKeys[serviceId] : null;
   const serviceDetail = detailKey ? t.services.details[detailKey] : null;
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, [serviceId]);
 
   if (!serviceDetail) {
     return (
