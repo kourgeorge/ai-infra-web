@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className={styles.footerContent}>
           <div className={styles.footerSection}>
-            <h3>AI Law Infrastructure</h3>
+            <h3>Tikanify</h3>
             <p>{t.footer.description}</p>
           </div>
           <div className={styles.footerSection}>
