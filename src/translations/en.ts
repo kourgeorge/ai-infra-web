@@ -11,7 +11,7 @@ export const translations = {
   hero: {
     title: "Secured AI Infrastructure for Businesses",
     subtitle: "Secure, domain-specific AI built for teams that need control",
-    description: "Tikanify delivers an enterprise-grade platform that gives businesses private, compliant AI infrastructure. Not the same as using ChatGPT carefully—a controlled environment that keeps data safe while letting every team move faster.",
+    description: "Tikanify delivers an enterprise-grade platform that gives businesses private, compliant AI infrastructure. We add secure RAG and search to keep knowledge close, plus agentic AI that makes every team move faster.",
     cta: "",
     ctaSecondary: "",
   },
@@ -483,6 +483,71 @@ export const translations = {
       success: "Thanks! We’ll get back to you shortly.",
       error: "Please complete all required fields with a valid email.",
     },
+  },
+  legal: {
+    title: "Legal & Compliance",
+    subtitle: "Plain-language summaries of our Terms of Service and privacy practices.",
+    lastUpdated: "Last updated: March 2025",
+    cards: [
+      {
+        id: "terms",
+        tag: "Terms of Service",
+        title: "How you can use the platform",
+        description: "Guidelines for customers running Tikanify in production environments.",
+        points: [
+          {
+            title: "Authorized use",
+            description: "Access is for your organization and approved users; keep credentials protected and follow applicable laws.",
+          },
+          {
+            title: "Customer data ownership",
+            description: "You own your content. We process it only to deliver the service and never train public models on your data.",
+          },
+          {
+            title: "Security & uptime",
+            description: "We apply encryption in transit and at rest, enforce role-based access, and log activity. Maintenance windows are communicated in advance.",
+          },
+          {
+            title: "Prohibited activity",
+            description: "No attempts to breach security, disrupt service, or upload unlawful or infringing content.",
+          },
+          {
+            title: "Support & changes",
+            description: "We provide reasonable support and may update the service; material changes to these terms will be communicated.",
+          },
+        ],
+        note: "Need tailored terms for a regulated deployment? Contact us and we'll align on your requirements.",
+      },
+      {
+        id: "privacy",
+        tag: "Privacy",
+        title: "How we handle data",
+        description: "Snapshot of our privacy practices for AI infrastructure projects.",
+        points: [
+          {
+            title: "Data isolation",
+            description: "Customer environments stay isolated; data remains within your chosen boundary (dedicated VPC or on-prem).",
+          },
+          {
+            title: "Retention",
+            description: "Operational data is retained only as long as needed for the service, with deletion available on request or contract end.",
+          },
+          {
+            title: "Access controls",
+            description: "Least-privilege access, background-checked personnel, and logged administrative actions.",
+          },
+          {
+            title: "Subprocessors",
+            description: "We maintain a vetted list of subprocessors and will notify you before adding new ones where required.",
+          },
+          {
+            title: "Incident response",
+            description: "We follow an escalation and notification process for security events affecting your data.",
+          },
+        ],
+        note: "For the full Privacy Policy and Data Processing Agreement, reach out to our security team.",
+      },
+    ],
   },
   footer: {
     description: "Tikanify delivers secure AI infrastructure for modern businesses in Israel",

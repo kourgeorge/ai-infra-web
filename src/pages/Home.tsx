@@ -5,6 +5,7 @@ import SecurityCompliance from '../components/SecurityCompliance';
 import Services from '../components/Services';
 import SupportedModels from '../components/SupportedModels';
 import Features from '../components/Features';
+import Legal from '../components/Legal';
 
 const Home: React.FC = () => {
   const location = useLocation();
@@ -34,6 +35,7 @@ const Home: React.FC = () => {
       <Services />
       <SupportedModels />
       <Features />
+      <Legal />
     </>
   );
 };
