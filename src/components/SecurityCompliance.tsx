@@ -1,12 +1,12 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { FaShieldAlt, FaLock, FaEye, FaUserShield, FaCheckCircle } from 'react-icons/fa';
+import { FaShieldAlt, FaLock, FaEye, FaUserShield, FaCheckCircle, FaServer } from 'react-icons/fa';
 import styles from './SecurityCompliance.module.css';
 
 const SecurityCompliance: React.FC = () => {
   const { t } = useLanguage();
 
-  const icons = [FaShieldAlt, FaLock, FaEye, FaUserShield, FaCheckCircle];
+  const icons = [FaShieldAlt, FaLock, FaEye, FaUserShield, FaCheckCircle, FaServer];
 
   return (
     <section id="security" className={`section ${styles.security}`}>
@@ -40,4 +40,3 @@ const SecurityCompliance: React.FC = () => {
 };
 
 export default SecurityCompliance;
-

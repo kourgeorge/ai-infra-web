@@ -4,49 +4,66 @@
   font-size: 1.125rem;
 }
 
-.contactInfo {
-  display: flex;
-  justify-content: center;
-  gap: var(--spacing-2xl);
-  margin-bottom: var(--spacing-xl);
-  flex-wrap: wrap;
+.formWrapper {
+  max-width: 720px;
+  margin: 0 auto;
 }
 
-.contactItem {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
-  padding: var(--spacing-lg);
-  background-color: var(--color-bg-light);
+.form {
+  background: white;
   border-radius: var(--border-radius-lg);
-  min-width: 250px;
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
 }
 
-.contactIcon {
-  font-size: 2rem;
-  color: var(--color-accent);
-  flex-shrink: 0;
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
 }
 
-.contactItem h4 {
-  margin: 0 0 var(--spacing-xs) 0;
+.formRow label {
+  font-weight: 600;
   color: var(--color-text);
+}
+
+.formRow input,
+.formRow textarea {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: var(--color-bg-light);
   font-size: 1rem;
+  transition: var(--transition);
+}
+
+.formRow input:focus,
+.formRow textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+  background: white;
+}
+
+.statusSuccess,
+.statusError {
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius);
   font-weight: 600;
 }
 
-.contactItem a {
-  color: var(--color-accent);
-  font-size: 1.125rem;
-  font-weight: 500;
+.statusSuccess {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--color-success);
 }
 
-.contactItem a:hover {
-  text-decoration: underline;
-}
-
-.ctaWrapper {
-  text-align: center;
+.statusError {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--color-error);
 }
 
 .btn-lg {
@@ -55,14 +72,7 @@
   min-width: 200px;
 }
 
-@media (max-width: 768px) {
-  .contactInfo {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .contactItem {
-    min-width: auto;
-  }
+.form button[disabled] {
+  opacity: 0.75;
+  cursor: not-allowed;
 }
-

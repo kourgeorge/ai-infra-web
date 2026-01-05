@@ -9,7 +9,7 @@ export const translations = {
     language: "עברית",
   },
   hero: {
-    title: "AI Infrastructure for Modern Businesses",
+    title: "AI Infrastructure for Businesses",
     subtitle: "Secure, domain-specific AI built for teams that need control",
     description: "Tikanify delivers an enterprise-grade platform that gives businesses private, compliant AI infrastructure. Not the same as using ChatGPT carefully—a controlled environment that keeps data safe while letting every team move faster.",
     cta: "Request a Demo",
@@ -39,6 +39,10 @@ export const translations = {
       {
         title: "Full Compliance",
         description: "Compliant with GDPR, Israeli Privacy Protection Law, and Bar Association ethics requirements",
+      },
+      {
+        title: "Deployment Where You Need It",
+        description: "Run in your VPC or on-prem with encrypted isolation and key management under your control",
       },
     ],
   },
@@ -470,6 +474,19 @@ export const translations = {
     button: "Contact Us",
     email: "kourgeorge@gmail.com",
     phone: "(+972)-052-5808010",
+    form: {
+      nameLabel: "Full Name",
+      namePlaceholder: "Jane Doe",
+      emailLabel: "Work Email",
+      emailPlaceholder: "you@company.com",
+      companyLabel: "Company",
+      companyPlaceholder: "Your organization",
+      messageLabel: "How can we help?",
+      messagePlaceholder: "Share a short note about your needs or questions",
+      submit: "Send Message",
+      success: "Thanks! We’ll get back to you shortly.",
+      error: "Please complete all required fields with a valid email.",
+    },
   },
   footer: {
     description: "Tikanify delivers secure AI infrastructure for modern businesses in Israel",

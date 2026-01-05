@@ -9,7 +9,7 @@ export const translations = {
     language: "English",
   },
   hero: {
-    title: "תשתית AI לעסקים מודרניים",
+    title: "תשתית AI לעסקים",
     subtitle: "תשתית AI מאובטחת ומותאמת תחום לצוותים שצריכים שליטה",
     description: "Tikanify מספקת פלטפורמה ברמת ארגון שנותנת לעסקים תשתית AI פרטית ותואמת. לא אותו דבר כמו שימוש זהיר ב-ChatGPT—סביבה מבוקרת ששומרת על הנתונים שלך ומאפשרת לצוותים לעבוד מהר ובבטחה.",
     cta: "בקש הדגמה",
@@ -39,6 +39,10 @@ export const translations = {
       {
         title: "עמידה מלאה בתקנות",
         description: "תואם GDPR, חוק הגנת הפרטיות הישראלי ודרישות אתיקה של לשכת עורכי הדין",
+      },
+      {
+        title: "פריסה היכן שנדרש",
+        description: "הפעלה ב-VPC שלך או און-פרם עם בידוד מוצפן וניהול מפתחות בשליטתך",
       },
     ],
   },
@@ -413,6 +417,19 @@ export const translations = {
     button: "צור קשר",
     email: "kourgeorge@gmail.com",
     phone: "(+972)-052-5808010",
+    form: {
+      nameLabel: "שם מלא",
+      namePlaceholder: "נועה לוי",
+      emailLabel: "אימייל עבודה",
+      emailPlaceholder: "you@company.com",
+      companyLabel: "חברה",
+      companyPlaceholder: "שם הארגון",
+      messageLabel: "איך נוכל לעזור?",
+      messagePlaceholder: "ספרו לנו בקצרה על הצרכים או השאלות שלכם",
+      submit: "שלח הודעה",
+      success: "תודה! נחזור אליך בהקדם.",
+      error: "נא למלא את כל השדות הנדרשים עם אימייל תקין.",
+    },
   },
   footer: {
     description: "Tikanify מספקת תשתית AI מאובטחת לעסקים מודרניים בישראל",
