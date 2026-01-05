@@ -4,7 +4,6 @@ import Hero from '../components/Hero';
 import SecurityCompliance from '../components/SecurityCompliance';
 import Services from '../components/Services';
 import SupportedModels from '../components/SupportedModels';
-import Features from '../components/Features';
 
 const Home: React.FC = () => {
   const location = useLocation();
@@ -33,7 +32,6 @@ const Home: React.FC = () => {
       <SecurityCompliance />
       <Services />
       <SupportedModels />
-      <Features />
     </>
   );
 };

@@ -23,8 +23,8 @@ const Footer: React.FC = () => {
             <h4>Links</h4>
             <ul>
               <li><ScrollLink targetId="services">{t.footer.links.services}</ScrollLink></li>
+              <li><Link to="/pricing">{t.footer.links.pricing}</Link></li>
               <li><ScrollLink targetId="security">{t.footer.links.security}</ScrollLink></li>
-              <li><ScrollLink targetId="features">{t.footer.links.features}</ScrollLink></li>
               <li><ScrollLink targetId="contact">{t.footer.links.contact}</ScrollLink></li>
             </ul>
           </div>

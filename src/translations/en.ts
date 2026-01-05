@@ -3,8 +3,8 @@ export const translations = {
     nav: {
       services: "Services",
       security: "Security",
-      features: "Features",
       contact: "Contact",
+      pricing: "Pricing",
     },
     language: "עברית",
   },
@@ -446,23 +446,6 @@ export const translations = {
       },
     ],
   },
-  features: {
-    title: "Why Choose Our Platform",
-    items: [
-      {
-        title: "Israeli Compliance",
-        description: "Fully compliant with Israeli Privacy Protection Law and Bar Association ethics standards",
-      },
-      {
-        title: "Enterprise Security",
-        description: "Military-grade security measures to protect sensitive client information",
-      },
-      {
-        title: "Scalable Infrastructure",
-        description: "Grows with your firm - from solo practitioners to large legal organizations",
-      },
-    ],
-  },
   contact: {
     title: "Get in Touch",
     subtitle: "Ready to secure your business's AI infrastructure?",
@@ -483,6 +466,52 @@ export const translations = {
       success: "Thanks! We’ll get back to you shortly.",
       error: "Please complete all required fields with a valid email.",
     },
+  },
+  pricing: {
+    title: "Pricing",
+    subtitle: "Simple plans for secure AI deployments. Choose the coverage your team needs.",
+    highlight: "Every plan includes private deployment options, encryption in transit and at rest, audit logging, and security reviews.",
+    tiers: [
+      {
+        name: "Pilot",
+        price: "$2,500 / mo",
+        detail: "For teams validating a secure AI rollout",
+        features: [
+          "Up to 25 users and 250K monthly tokens",
+          "Single secure connector (e.g., Google Drive or Confluence)",
+          "Audit logging and usage reporting",
+          "Business-hours support (GMT+2)",
+        ],
+        note: "Perfect for proving value and security in a contained scope.",
+      },
+      {
+        name: "Growth",
+        price: "$6,500 / mo",
+        detail: "For departments scaling secure AI",
+        features: [
+          "Up to 150 users and 2M monthly tokens",
+          "Multiple connectors with role-aware access",
+          "RAG + private agent workflows",
+          "SLA 99.5% with on-call support",
+        ],
+        note: "Balances scale, governance, and support for fast-moving teams.",
+      },
+      {
+        name: "Enterprise",
+        price: "Custom",
+        detail: "For regulated or large-scale deployments",
+        features: [
+          "Unlimited users with volume pricing",
+          "On-prem or dedicated VPC deployment",
+          "Advanced governance, SSO, SCIM, and DLP hooks",
+          "SLA 99.9% and named TAM",
+        ],
+        note: "Tailored to your security, compliance, and availability requirements.",
+      },
+    ],
+    ctaPrimary: "Talk with sales",
+    ctaSecondary: "Compare with security controls",
+    footerNote: "Monthly pricing shown. Annual and multi-year terms available; custom terms for regulated organizations.",
   },
   legal: {
     title: "Legal & Compliance",
@@ -553,8 +582,8 @@ export const translations = {
     description: "Tikanify delivers secure AI infrastructure for modern businesses in Israel",
     links: {
       services: "Services",
+      pricing: "Pricing",
       security: "Security",
-      features: "Features",
       contact: "Contact",
       privacy: "Privacy Policy",
       terms: "Terms of Service",

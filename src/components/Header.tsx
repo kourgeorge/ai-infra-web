@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import styles from './Header.module.css';
 import ScrollLink from './ScrollLink';
@@ -19,8 +20,8 @@ const Header: React.FC = () => {
           </div>
           <ul className={styles.navList}>
             <li><ScrollLink targetId="services">{t.header.nav.services}</ScrollLink></li>
+            <li><Link to="/pricing">{t.header.nav.pricing}</Link></li>
             <li><ScrollLink targetId="security">{t.header.nav.security}</ScrollLink></li>
-            <li><ScrollLink targetId="features">{t.header.nav.features}</ScrollLink></li>
             <li><ScrollLink targetId="contact">{t.header.nav.contact}</ScrollLink></li>
           </ul>
           <button className={styles.languageButton} onClick={toggleLanguage}>
