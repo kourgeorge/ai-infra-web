@@ -4,11 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Use repo-relative base so assets resolve correctly on GitHub Pages
-  base: '/ai-infra-website/',
+  // Repo-relative base so assets resolve correctly on GitHub Pages
+  base: '/ai-infra-web/',
   build: {
-    // Emit static site directly into /docs for GitHub Pages
-    outDir: 'docs',
+    outDir: 'dist',
     assetsDir: 'assets',
   },
 })
