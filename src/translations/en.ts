@@ -12,8 +12,8 @@ export const translations = {
     title: "AI Infrastructure for Businesses",
     subtitle: "Secure, domain-specific AI built for teams that need control",
     description: "Tikanify delivers an enterprise-grade platform that gives businesses private, compliant AI infrastructure. Not the same as using ChatGPT carefully—a controlled environment that keeps data safe while letting every team move faster.",
-    cta: "Request a Demo",
-    ctaSecondary: "Learn More",
+    cta: "",
+    ctaSecondary: "",
   },
   security: {
     title: "What 'Secure AI' Means for Your Business",
@@ -449,10 +449,6 @@ export const translations = {
   features: {
     title: "Why Choose Our Platform",
     items: [
-      {
-        title: "Built for Law Firms",
-        description: "Designed specifically for the unique needs and security requirements of legal practices",
-      },
       {
         title: "Israeli Compliance",
         description: "Fully compliant with Israeli Privacy Protection Law and Bar Association ethics standards",

@@ -1,12 +1,12 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { FaBuilding, FaFlag, FaShieldAlt, FaChartBar } from 'react-icons/fa';
+import { FaFlag, FaShieldAlt, FaChartBar } from 'react-icons/fa';
 import styles from './Features.module.css';
 
 const Features: React.FC = () => {
   const { t } = useLanguage();
 
-  const icons = [FaBuilding, FaFlag, FaShieldAlt, FaChartBar];
+  const icons = [FaFlag, FaShieldAlt, FaChartBar];
 
   return (
     <section id="features" className={`section ${styles.features}`}>
@@ -35,4 +35,3 @@ const Features: React.FC = () => {
 };
 
 export default Features;
-
