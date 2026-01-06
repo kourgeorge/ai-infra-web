@@ -97,8 +97,8 @@ export const translations = {
       privateLLM: {
         title: "Private LLM Access",
         subtitle: "Secure access to advanced AI models",
-        overview: "Access cutting-edge language models like ChatGPT, Claude, and Gemini through a fully secure, private infrastructure designed for businesses that need control. Unlike public AI services, our private LLM layer keeps sensitive data inside your environment with encryption, auditability, and isolation.",
-        detailedDescription: "Private LLM Access gives organizations enterprise-grade use of leading language models without exposing data to public endpoints. Deployed inside your network or a dedicated tenant, every interaction is encrypted end-to-end, logged for audit, and isolated from other customers. You get the full power of modern AI while meeting the security and compliance standards your business requires.",
+        overview: "Access cutting-edge language models like ChatGPT, Claude, and Gemini through a fully secure, private infrastructure designed for businesses that need tight control over data privacy. Unlike public AI services, our private LLM layer keeps sensitive data inside your environment with encryption, auditability, and isolation.",
+        detailedDescription: "Private LLM Access gives businesses enterprise-grade use of leading language models without exposing data to public endpoints. Deployed inside your network or a dedicated tenant, every interaction is encrypted end-to-end, logged for audit, and isolated from other customers. You get the full power of modern AI while meeting the security and compliance standards your organization requires.",
         useCases: [
           {
             title: "Customer Communication",

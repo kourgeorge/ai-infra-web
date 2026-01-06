@@ -14,7 +14,6 @@ const PricingPage: React.FC = () => {
     <div className={styles.pricingPage}>
       <section className={`section ${styles.hero}`}>
         <div className="container">
-          <span className={styles.tag}>{t.pricing.title}</span>
           <h1>{t.pricing.title}</h1>
           <p className={styles.subtitle}>{t.pricing.subtitle}</p>
           <p className={styles.highlight}>{t.pricing.highlight}</p>
