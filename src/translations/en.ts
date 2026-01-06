@@ -474,7 +474,7 @@ export const translations = {
     tiers: [
       {
         name: "Pilot",
-        price: "$2,500 / mo",
+        price: "2,500 ILS / mo",
         detail: "For teams validating a secure AI rollout",
         features: [
           "Up to 25 users and 250K monthly tokens",
@@ -486,7 +486,7 @@ export const translations = {
       },
       {
         name: "Growth",
-        price: "$6,500 / mo",
+        price: "6,500 ILS / mo",
         detail: "For departments scaling secure AI",
         features: [
           "Up to 150 users and 2M monthly tokens",
@@ -498,7 +498,7 @@ export const translations = {
       },
       {
         name: "Enterprise",
-        price: "Custom",
+        price: "Custom (ILS)",
         detail: "For regulated or large-scale deployments",
         features: [
           "Unlimited users with volume pricing",
