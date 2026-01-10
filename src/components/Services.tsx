@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { 
   FaBrain, 
+  FaGraduationCap,
   FaChartLine, 
   FaSearch, 
   FaRobot,
@@ -20,6 +21,7 @@ const Services: React.FC = () => {
 
   const icons = [
     FaBrain,           // Private LLM Access
+    FaGraduationCap,   // Custom Model Training
     FaChartLine,       // Observability & Governance
     FaSearch,          // Private RAG System
     FaRobot,           // Custom Agent Development
@@ -32,6 +34,7 @@ const Services: React.FC = () => {
 
   const serviceSlugs = [
     'private-llm',
+    'custom-model-training',
     'observability',
     'private-rag',
     'custom-agents',

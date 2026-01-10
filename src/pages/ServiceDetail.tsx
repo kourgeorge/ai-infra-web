@@ -10,6 +10,7 @@ const ServiceDetail: React.FC = () => {
 
   const serviceKeys: Record<string, keyof typeof t.services.details> = {
     'private-llm': 'privateLLM',
+    'custom-model-training': 'customModelTraining',
     'observability': 'observability',
     'private-rag': 'privateRAG',
     'custom-agents': 'customAgents',

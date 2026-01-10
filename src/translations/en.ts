@@ -61,6 +61,10 @@ export const translations = {
         description: "Secure, private access to leading language models—enterprise controls without sending data to public endpoints",
       },
       {
+        title: "Custom Model Training",
+        description: "Train AI models on your proprietary data—create domain-specific models that understand your business context and terminology",
+      },
+      {
         title: "Observability & Governance",
         description: "Visibility and guardrails for how teams use AI—track cost, usage, and data with auditable controls",
       },
@@ -125,6 +129,40 @@ export const translations = {
           "Configurable guardrails and policies for your specific needs",
         ],
         howItWorks: "Private LLM is deployed in your secure network or a dedicated cloud tenant with strict access controls. All requests run through encrypted, isolated compute, never stored on public provider servers, and never used to train public models. Every interaction is logged for audit, giving you full visibility into AI usage across your organization.",
+      },
+      customModelTraining: {
+        title: "Custom Model Training",
+        subtitle: "Train models on your proprietary data",
+        overview: "Create AI models specifically trained on your organization's proprietary data, terminology, and domain knowledge. Custom Model Training enables you to build models that understand your unique business context, industry-specific language, and internal processes—all while maintaining complete data privacy and security.",
+        detailedDescription: "Custom Model Training allows you to fine-tune or train AI models using your own proprietary data within a fully secure, private environment. Unlike generic AI models, custom-trained models understand your specific terminology, business processes, document structures, and domain expertise. The training process is conducted entirely within your controlled environment, ensuring your data never leaves your secure infrastructure and is never used to train public models. This results in models that are more accurate, relevant, and effective for your specific use cases.",
+        useCases: [
+          {
+            title: "Domain-Specific Fine-Tuning",
+            description: "Fine-tune base models to understand your industry's specific terminology, jargon, and context. Whether you're in legal services, healthcare, finance, or any specialized field, custom training ensures the model speaks your language and understands your domain's nuances.",
+          },
+          {
+            title: "Custom Vocabulary Integration",
+            description: "Train models to recognize and properly use your organization's proprietary terminology, product names, internal processes, and brand-specific language. This ensures consistent, accurate communication that aligns with your brand voice and professional standards.",
+          },
+          {
+            title: "Industry-Specific Knowledge",
+            description: "Integrate your organization's accumulated knowledge, best practices, and expertise into the model. Train on historical documents, case studies, successful strategies, and internal knowledge bases to create a model that embodies your institutional knowledge.",
+          },
+          {
+            title: "Proprietary Data Optimization",
+            description: "Optimize model performance for your specific data types, document formats, and use cases. Whether you work with contracts, medical records, financial reports, or specialized documents, custom training improves accuracy and relevance for your specific content.",
+          },
+        ],
+        benefits: [
+          "Complete data privacy—training happens entirely within your secure environment",
+          "Full control over training data, parameters, and model configuration",
+          "Improved accuracy and relevance for your specific domain and use cases",
+          "Models that understand your terminology, processes, and business context",
+          "No data sharing with external services or public model training",
+          "Ability to continuously refine and update models as your business evolves",
+          "Compliance with data protection regulations through private training",
+        ],
+        howItWorks: "Custom Model Training begins by identifying your training data and defining your specific requirements. Your data is prepared and processed within your secure environment, then used to fine-tune or train models using advanced machine learning techniques. The entire training process runs on isolated compute resources within your infrastructure, ensuring complete data privacy. Once trained, models are deployed within your secure environment and can be continuously refined based on performance feedback. All training data remains private, never shared with external services, and never used to improve public models.",
       },
       observability: {
         title: "Observability & Governance",
